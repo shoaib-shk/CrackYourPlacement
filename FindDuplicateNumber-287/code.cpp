@@ -1,4 +1,4 @@
-//Using HashMap:  (128 ms)
+//Using HashMap:  (71 ms)
 class Solution {
 public:
     int findDuplicate(vector<int>& nums) {
@@ -13,7 +13,7 @@ public:
     }
 };
 
-//Using Floyd tortoise hare approach (71 ms)
+//Using Floyd tortoise hare approach (74 ms)
 class Solution {
 public:
     int findDuplicate(vector<int>& nums) {
